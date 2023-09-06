@@ -1,0 +1,11 @@
+name: "MagicMirror"
+description: "MagicMirror as Homeassistant addon"
+version: "1.5.6"
+slug: "enjoy"
+init: false
+arch:
+  - amd64
+ports:
+  8080/tcp: 8080
+map:
+  - share:rw
