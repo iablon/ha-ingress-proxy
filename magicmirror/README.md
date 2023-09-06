@@ -4,3 +4,4 @@
 simply the magicmirror app as a homeassistant addon
 ### Notes
 The addon will replicate and the source all it's files from the ```share/Magicmirro``` folder so to modify the config/css or to add modules you have to have access to this folder.
+I have changed the default config of magicmirror to a full whitelist configuration to allow for all IPs, you might want to restrict access.
