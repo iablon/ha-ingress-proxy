@@ -1,7 +1,7 @@
 name: "MagicMirror"
 description: "MagicMirror as Homeassistant addon"
 version: "1.5.7"
-slug: "enjoy"
+slug: "magicmirror"
 init: false
 arch:
   - amd64
