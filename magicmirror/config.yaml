@@ -1,6 +1,6 @@
 name: "MagicMirror"
 description: "MagicMirror as Homeassistant addon"
-version: "1.5.7"
+version: "1.5.8"
 slug: "magicmirror"
 init: false
 arch:
