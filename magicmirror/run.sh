@@ -28,7 +28,7 @@ cp -a /share/MagicMirror/css/. /home/MagicMirror/css/
 cp -a /share/MagicMirror/modules/. /home/MagicMirror/modules
 
 bashio::log.info "Executing additional command before start..."
-eval " $(bashio::config 'default_lease')"
+eval " $(bashio::config 'command')"
 
 bashio::log.info "starting Magicmirror..."
 npm --prefix /home/MagicMirror run server
