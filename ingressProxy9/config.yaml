@@ -1,0 +1,18 @@
+name: "Ingress proxy 9"
+version: "1.0.0"
+slug: "ingress-proxy-9"
+description: "Proxy services and access them from sidebar"
+arch:
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ingress: true
+ingress_stream: true
+# may need to change the ingress_entry parameter 
+ingress_entry: startin
+panel_icon: mdi:numeric-9
+panel_admin: true
+init: false
+map:
+  - share:rw
