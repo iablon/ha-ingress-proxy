@@ -1,5 +1,5 @@
 name: "Ingress proxy 6"
-version: "1.0.0"
+version: "1.0.1"
 slug: "ingress-proxy-6"
 description: "Proxy services and access them from sidebar"
 arch:
