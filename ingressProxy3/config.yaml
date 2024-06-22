@@ -1,5 +1,5 @@
 name: "Ingress proxy 3"
-version: "1.0.2"
+version: "1.0.3"
 slug: "ingress-proxy-3"
 description: "Proxy services and access them from sidebar"
 arch:
@@ -17,4 +17,3 @@ init: false
 map:
   - share:rw
   - ssl
-  - addon_config:rw
