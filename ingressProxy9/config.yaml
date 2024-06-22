@@ -1,5 +1,5 @@
 name: "Ingress proxy 9"
-version: "1.0.1"
+version: "1.0.2"
 slug: "ingress-proxy-9"
 description: "Proxy services and access them from sidebar"
 arch:
@@ -17,3 +17,4 @@ init: false
 map:
   - share:rw
   - ssl
+  - addon_config:rw
